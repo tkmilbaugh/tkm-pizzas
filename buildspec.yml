@@ -8,7 +8,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package -Dmaven.test.skip=true
+      - mvn package
 artifacts:
   files:
     - target/pizza-0.0.1-SNAPSHOT.jar
