@@ -9,7 +9,7 @@ public class PizzaController {
 	@RequestMapping(value = "/pizzas", method = RequestMethod.GET)
 	@ResponseBody
 	public String getPizzasBySimplePath() {
-	    return "Get some Pizzas!";
+	    return "pizza is life";
 	}
 
 }
